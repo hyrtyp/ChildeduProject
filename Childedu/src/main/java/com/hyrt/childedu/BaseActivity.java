@@ -11,7 +11,9 @@ import com.octo.android.robospice.spicelist.BitmapSpiceManager;
 
 import roboguice.activity.RoboActivity;
 
-
+/**
+ * global base activity
+ */
 public class BaseActivity extends RoboSherlockActivity{
 
     private SpiceManager contentManager = new SpiceManager( JacksonSpringAndroidSpiceService.class );
