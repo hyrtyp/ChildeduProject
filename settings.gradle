@@ -1,1 +1,1 @@
-include ':Childedu',':actionbarsherlock', ':childedu_teacher', ':datahelper'
+include ':Childedu',':actionbarsherlock', ':childedu_teacher'
