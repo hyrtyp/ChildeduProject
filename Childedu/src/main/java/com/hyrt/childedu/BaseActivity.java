@@ -1,18 +1,12 @@
 package com.hyrt.childedu;
 
-import android.os.Bundle;
-import android.app.Activity;
-import android.view.Menu;
-
 import com.github.rtyley.android.sherlock.roboguice.activity.RoboSherlockActivity;
 import com.octo.android.robospice.JacksonSpringAndroidSpiceService;
 import com.octo.android.robospice.SpiceManager;
 import com.octo.android.robospice.spicelist.BitmapSpiceManager;
 
-import roboguice.activity.RoboActivity;
-
 /**
- * global base activity yepenga
+ * global base activity yepeng
  */
 public class BaseActivity extends RoboSherlockActivity{
 
