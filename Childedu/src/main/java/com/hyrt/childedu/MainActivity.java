@@ -33,6 +33,9 @@ import roboguice.inject.RoboInjector;
 import roboguice.service.event.OnConfigurationChangedEvent;
 import roboguice.service.event.OnDestroyEvent;
 
+/**
+ * main activity
+ */
 public class MainActivity extends BaseActivity{
 
     protected HashMap<Key<?>,Object> scopedObjects = new HashMap<Key<?>,Object>();
