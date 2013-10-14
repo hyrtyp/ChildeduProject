@@ -6,7 +6,7 @@ import com.octo.android.robospice.SpiceManager;
 import com.octo.android.robospice.spicelist.BitmapSpiceManager;
 
 /**
- * global base activity yepeng xiaohuoban
+ * global base activity yepeng
  */
 public class BaseActivity extends RoboSherlockActivity{
 
