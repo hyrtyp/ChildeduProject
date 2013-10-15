@@ -137,7 +137,7 @@ public class MainActivity extends BaseActivity{
 
 
     private void performRequest() {
-        LoginRequest request = new LoginRequest( "","");
+        LoginRequest request = new LoginRequest("","");
         getSpiceManager().execute(request, request.createCacheKey(), DurationInMillis.ONE_MINUTE, new ListLoginRequestListener());
     }
 
