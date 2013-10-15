@@ -36,4 +36,4 @@ enabled.
          android:foregroundGravity="fill_horizontal|top"
          android:foreground="?attr/windowContentOverlay" />
 </LinearLayout>
-<!-- From: file:/home/yepeng/.ssh/ChildeduProject/actionbarsherlock/res/layout/abs__screen_simple.xml -->
+<!-- From: file:/D:/Users/GYH/workspace/ChildeduProject/actionbarsherlock/res/layout/abs__screen_simple.xml -->
