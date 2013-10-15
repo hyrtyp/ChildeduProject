@@ -12,7 +12,7 @@ import com.octo.android.robospice.spicelist.BitmapSpiceManager;
 import roboguice.activity.RoboActivity;
 
 /**
- * global base activity yepeng13
+ * global base activity yepeng14s
  */
 public class BaseActivity extends RoboSherlockActivity{
 
