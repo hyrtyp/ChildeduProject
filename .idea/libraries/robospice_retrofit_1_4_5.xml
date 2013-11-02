@@ -2,6 +2,7 @@
   <library name="robospice-retrofit-1.4.5">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.octo.android.robospice/robospice-retrofit/1.4.5/jar/346bcf3b69a01bcf9ba0687b693e7cbbf40e3541/robospice-retrofit-1.4.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../.gradle/caches/artifacts-26/filestore/com.octo.android.robospice/robospice-retrofit/1.4.5/jar/346bcf3b69a01bcf9ba0687b693e7cbbf40e3541/robospice-retrofit-1.4.5.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
