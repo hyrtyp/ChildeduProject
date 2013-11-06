@@ -32,9 +32,8 @@ uploadArchives {
     repository(
       url: "127.0.0.1:8081/nexus/content/repositories/snapshots/"
     )
-  }
 }
-
+}
 android {
     compileSdkVersion 17
     buildToolsVersion "17.0.0"
