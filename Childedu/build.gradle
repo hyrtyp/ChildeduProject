@@ -7,9 +7,32 @@ buildscript {
     }
 }
 apply plugin: 'android'
+apply plugin: 'maven'
+
+group 'com.hyrt.childedu'
 
 repositories {
-    mavenCentral()
+   maven{
+       url  'http://127.0.0.1:8081/nexus/content/groups/public/'
+   } 
+}
+
+configurations {
+  deployerJars
+}
+
+
+dependencies {
+  deployerJars "org.apache.maven.wagon:wagon-webdav-jackrabbit:1.0-beta-7"
+}
+
+uploadArchives {
+  repositories.mavenDeployer {
+    configuration = configurations.deployerJars
+    repository(
+      url: "127.0.0.1:8081/nexus/content/repositories/snapshots/"
+    )
+  }
 }
 
 android {
