@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:indeterminate="false"
+        android:layout_centerInParent="true"
+        style="@style/Spinner"/>
+    <include layout="@layout/layout_xlistview"/>
+    <GridView
+        android:id="@+id/image_grid"
+        android:numColumns="auto_fit"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:visibility="gone"/>
+</RelativeLayout>

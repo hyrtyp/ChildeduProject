@@ -2,6 +2,8 @@
 <resources>
 
     <!-- From: file:/D:/Users/GYH/workspace/ChildeduProject/actionbarsherlock/res/values-w500dp/abs__dimens.xml -->
+    <eat-comment />
+
     <integer name="abs__max_action_buttons">4</integer>
 
 </resources>
