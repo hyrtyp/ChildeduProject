@@ -2,6 +2,8 @@
 <resources>
 
     <!-- From: file:/D:/Users/GYH/workspace/ChildeduProject/actionbarsherlock/res/values-v11/abs__themes.xml -->
+    <eat-comment />
+
     <style name="Sherlock.__Theme" parent="android:Theme.Holo">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>

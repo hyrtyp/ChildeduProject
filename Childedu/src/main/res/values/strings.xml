@@ -5,5 +5,7 @@
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_main_activity3">MainActivity</string>
+    <string name="app_teacher">教师客户端</string>
+    <string name="title_activity_xlistview">XlistviewActivity</string>
 
 </resources>

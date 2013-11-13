@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.edu.ActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">#000000</item>
+        <item name="android:titleTextStyle">@style/Widget.edu.ActionBar.Title.v</item>
+    </style>
+    <style name="Theme.edu.Sherlock" parent="Theme.edu.v">
+        <item name="android:actionBarStyle">@style/Widget.edu.ActionBar</item>
+    </style>
+</resources>

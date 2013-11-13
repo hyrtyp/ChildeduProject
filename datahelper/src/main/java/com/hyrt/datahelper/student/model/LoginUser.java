@@ -1,4 +1,4 @@
-package com.hyrt.datahelper.model;
+package com.hyrt.datahelper.student.model;
 
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 

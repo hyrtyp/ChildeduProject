@@ -2,10 +2,16 @@
 <resources>
 
     <!-- From: file:/D:/Users/GYH/workspace/ChildeduProject/actionbarsherlock/res/values-w480dp/abs__bools.xml -->
+    <eat-comment />
+
     <bool name="abs__action_bar_embed_tabs">true</bool>
     <!-- From: file:/D:/Users/GYH/workspace/ChildeduProject/actionbarsherlock/res/values-w480dp/abs__config.xml -->
+    <eat-comment />
+
     <bool name="abs__config_allowActionMenuItemTextWithIcon">true</bool>
     <!-- From: file:/D:/Users/GYH/workspace/ChildeduProject/actionbarsherlock/res/values-w480dp/abs__bools.xml -->
+    <eat-comment />
+
     <bool name="abs__split_action_bar_is_narrow">false</bool>
 
 </resources>
