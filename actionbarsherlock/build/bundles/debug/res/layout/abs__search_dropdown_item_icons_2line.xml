@@ -87,4 +87,4 @@
               android:layout_above="@android:id/text2" />
 
 </RelativeLayout>
-<!-- From: file:/D:/Users/GYH/workspace/ChildeduProject/actionbarsherlock/res/layout/abs__search_dropdown_item_icons_2line.xml -->
+<!-- From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/layout/abs__search_dropdown_item_icons_2line.xml -->

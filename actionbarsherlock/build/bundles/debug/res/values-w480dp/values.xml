@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+<<<<<<< HEAD
     <!-- From: file:/D:/Users/GYH/workspace/ChildeduProject/actionbarsherlock/res/values-w480dp/abs__bools.xml -->
     <eat-comment />
 
@@ -12,6 +13,13 @@
     <!-- From: file:/D:/Users/GYH/workspace/ChildeduProject/actionbarsherlock/res/values-w480dp/abs__bools.xml -->
     <eat-comment />
 
+=======
+    <!-- From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values-w480dp/abs__bools.xml -->
+    <bool name="abs__action_bar_embed_tabs">true</bool>
+    <!-- From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values-w480dp/abs__config.xml -->
+    <bool name="abs__config_allowActionMenuItemTextWithIcon">true</bool>
+    <!-- From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values-w480dp/abs__bools.xml -->
+>>>>>>> 3903523221af5947290153ff02241ecf5b69a9e3
     <bool name="abs__split_action_bar_is_narrow">false</bool>
 
 </resources>
