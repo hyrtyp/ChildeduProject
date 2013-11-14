@@ -1,3 +1,6 @@
 /local.properties
-/.idea
+/.idea/gradle.xml
+/.idea/vcs.xml
+/.idea/encodings.xml
+/.idea/workspace.xml
 /actionbarsherlock
