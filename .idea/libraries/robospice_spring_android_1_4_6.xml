@@ -2,7 +2,6 @@
   <library name="robospice-spring-android-1.4.6">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.octo.android.robospice/robospice-spring-android/1.4.6/jar/3d3b1af49a5c4d33be1a0783cd491c5b976cca95/robospice-spring-android-1.4.6.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../.gradle/caches/artifacts-26/filestore/com.octo.android.robospice/robospice-spring-android/1.4.6/jar/3d3b1af49a5c4d33be1a0783cd491c5b976cca95/robospice-spring-android-1.4.6.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

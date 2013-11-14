@@ -3,37 +3,19 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.5.+'
+        classpath 'com.android.tools.build:gradle:0.6.+'
+        classpath 'com.stanfy.spoon:spoon-gradle-plugin:0.9.+'
     }
 }
 apply plugin: 'android'
 apply plugin: 'maven'
+apply plugin: 'spoon'
 
-group 'com.hyrt.childedu'
-
-repositories {
-   maven{
-       url  'http://127.0.0.1:8081/nexus/content/groups/public/'
-   } 
+// for debug output
+spoon {
+    debug = true
 }
 
-configurations {
-  deployerJars
-}
-
-
-dependencies {
-  deployerJars "org.apache.maven.wagon:wagon-webdav-jackrabbit:1.0-beta-7"
-}
-
-uploadArchives(dependsOn: 'build') {
-  repositories.mavenDeployer {
-    configuration = configurations.deployerJars
-    repository(
-      url: "127.0.0.1:8081/nexus/content/repositories/snapshots/"
-    )
-}
-}
 android {
     compileSdkVersion 17
     buildToolsVersion "17.0.0"
@@ -42,6 +24,10 @@ android {
         minSdkVersion 7
         targetSdkVersion 16
     }
+}
+
+repositories {
+    mavenCentral()
 }
 
 dependencies {

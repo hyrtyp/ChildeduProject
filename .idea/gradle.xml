@@ -5,15 +5,9 @@
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="/usr/local/gradle-1.7" />
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="distributionType" value="LOCAL" />
-        <option name="externalProjectPath" value="D:\Users\GYH\workspace\ChildeduProject" />
-        <option name="useAutoImport" value="true" />
+        <option name="gradleHome" value="/usr/local/gradle-1.8" />
       </GradleProjectSettings>
     </option>
-    <option name="serviceDirectoryPath" value="$PROJECT_DIR$/../../.gradle" />
   </component>
 </project>
 
