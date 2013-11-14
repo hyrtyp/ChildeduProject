@@ -16,7 +16,6 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/Theme.edu.Sherlock" >
-        <uses-library android:name="android.test.runner" />
         <activity
             android:name=".LoginActivity"
             android:label="@string/app_name"
@@ -33,9 +32,4 @@
             android:name="com.octo.android.robospice.spicelist.BitmapSpiceService"
             android:exported="false" />
     </application>
-    <uses-permission android:name="android.permission.RUN_INSTRUMENTATION" />
-
-    <instrumentation android:name="android.test.InstrumentationTestRunner"
-        android:targetPackage="name.feisky.android.test"
-        android:label="Test for my app"/>
 </manifest>

@@ -2,10 +2,10 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/src/main/assets" />
+        <source path="C:\Users\GYH\.ssh\ChildeduProject\actionbarsherlock\src\main\assets" />
     </dataSet>
     <dataSet config="release" >
-        <source path="/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/src/release/assets" />
+        <source path="C:\Users\GYH\.ssh\ChildeduProject\actionbarsherlock\src\release\assets" />
     </dataSet>
 
 </merger>

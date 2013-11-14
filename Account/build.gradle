@@ -1,12 +1,19 @@
 buildscript {
     repositories {
         mavenCentral()
+        mavenLocal()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:0.6.+'
+        classpath 'com.stanfy.spoon:spoon-gradle-plugin:0.9.+'
     }
 }
 apply plugin: 'android'
+apply plugin: 'spoon'
+
+spoon {
+    debug = true
+}
 
 repositories {
     mavenCentral()
@@ -17,8 +24,14 @@ android {
     buildToolsVersion "17.0.0"
 
     defaultConfig {
-        minSdkVersion 15
+        minSdkVersion 7
         targetSdkVersion 16
+
+        versionCode 1
+        versionName '1.0'
+
+        testPackageName "com.hyrt.login.tests"
+        testInstrumentationRunner "android.test.InstrumentationTestRunner"
     }
 
 }
@@ -26,16 +39,7 @@ android {
 dependencies {
     compile project(':Base')
     compile project(':datahelper')
-    compile 'com.google.code.gson:gson:2.2.4'
-    compile 'net.hockeyapp.android:HockeySDK:3.0.0'
-    compile 'commons-httpclient:commons-httpclient:3.1'
-    compile 'com.google.android:android-test:4.1.1.4'
-    compile files('libs/android.test.runner.jar')
-    instrumentTestCompile 'com.google.guava:guava:11.0.2'
-    instrumentTestCompile 'com.squareup.spoon:spoon-client:1.0.5'
-    instrumentTestCompile 'com.jayway.android.robotium:robotium-solo:4.2'
-    instrumentTestCompile 'org.mockito:mockito-all:1.9.5'
-    instrumentTestCompile 'com.squareup:fest-android:1.0.5'
+    instrumentTestCompile "com.squareup.spoon:spoon-client:1.0.5"
 }
 tasks.withType(Compile){
     options.encoding="UTF-8"
