@@ -87,4 +87,8 @@
               android:layout_above="@android:id/text2" />
 
 </RelativeLayout>
+<<<<<<< HEAD
 <!-- From: file:/C:/Users/GYH/.ssh/ChildeduProject/actionbarsherlock/res/layout/abs__search_dropdown_item_icons_2line.xml -->
+=======
+<!-- From: file:/home/yepeng/.ssh/ChildeduProject/actionbarsherlock/res/layout/abs__search_dropdown_item_icons_2line.xml -->
+>>>>>>> 2a4d97d63cb515d751d721447d53aa13ee1cb773

@@ -58,4 +58,8 @@ the Action Bar enabled overlaying application content.
                   android:visibility="gone"
                   android:gravity="center"/>
 </FrameLayout>
+<<<<<<< HEAD
 <!-- From: file:/C:/Users/GYH/.ssh/ChildeduProject/actionbarsherlock/res/layout/abs__screen_action_bar_overlay.xml -->
+=======
+<!-- From: file:/home/yepeng/.ssh/ChildeduProject/actionbarsherlock/res/layout/abs__screen_action_bar_overlay.xml -->
+>>>>>>> 2a4d97d63cb515d751d721447d53aa13ee1cb773

@@ -1,0 +1,37 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.6.+'
+    }
+}
+apply plugin: 'android-library'
+
+repositories {
+    mavenCentral()
+}
+
+android {
+    compileSdkVersion 17
+    buildToolsVersion "17.0.0"
+
+    defaultConfig {
+        minSdkVersion 7
+        targetSdkVersion 16
+    }
+}
+
+dependencies {
+    compile 'com.google.android:support-v4:r7'
+    compile 'com.octo.android.robospice:robospice:1.4.6'
+    compile 'com.octo.android.robospice:robospice-spring-android:1.4.6'
+    compile 'org.springframework.android:spring-android-core:1.0.1.RELEASE'
+    compile 'org.codehaus.jackson:jackson-mapper-asl:1.9.11'
+    compile 'com.octo.android.robospice:robospice-retrofit:1.4.5'
+    compile ('org.simpleframework:simple-xml:2.7.1'){
+        exclude module: 'stax'
+        exclude module: 'stax-api'
+        exclude module: 'xpp3'
+    }
+}

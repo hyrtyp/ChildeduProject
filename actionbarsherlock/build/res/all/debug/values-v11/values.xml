@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+<<<<<<< HEAD
     <!-- From: file:/C:/Users/GYH/.ssh/ChildeduProject/actionbarsherlock/res/values-v11/abs__themes.xml -->
     <eat-comment />
 
+=======
+<<<<<<< HEAD
+    <!-- From: file:/home/yepeng/.ssh/ChildeduProject/actionbarsherlock/res/values-v11/abs__themes.xml -->
+    <eat-comment />
+
+=======
+<<<<<<< HEAD
+    <!-- From: file:/D:/Users/GYH/workspace/ChildeduProject/actionbarsherlock/res/values-v11/abs__themes.xml -->
+    <eat-comment />
+
+=======
+    <!-- From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values-v11/abs__themes.xml -->
+>>>>>>> 3903523221af5947290153ff02241ecf5b69a9e3
+>>>>>>> 36d4538fec2e1be648d6505f89ef7cb243ba61e1
+>>>>>>> 2a4d97d63cb515d751d721447d53aa13ee1cb773
     <style name="Sherlock.__Theme" parent="android:Theme.Holo">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>

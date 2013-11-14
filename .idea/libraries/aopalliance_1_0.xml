@@ -2,6 +2,10 @@
   <library name="aopalliance-1.0">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/aopalliance/aopalliance/1.0/jar/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar!/" />
+<<<<<<< HEAD
+=======
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/aopalliance/aopalliance/1.0/jar/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar!/" />
+>>>>>>> 2a4d97d63cb515d751d721447d53aa13ee1cb773
     </CLASSES>
     <JAVADOC />
     <SOURCES />

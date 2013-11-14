@@ -2,6 +2,10 @@
   <library name="roboguice-sherlock-1.5">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.github.rtyley/roboguice-sherlock/1.5/jar/ee18bc59b8abb8d39809822f4c6dfcd5afb89c1c/roboguice-sherlock-1.5.jar!/" />
+<<<<<<< HEAD
+=======
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.github.rtyley/roboguice-sherlock/1.5/jar/ee18bc59b8abb8d39809822f4c6dfcd5afb89c1c/roboguice-sherlock-1.5.jar!/" />
+>>>>>>> 2a4d97d63cb515d751d721447d53aa13ee1cb773
     </CLASSES>
     <JAVADOC />
     <SOURCES />

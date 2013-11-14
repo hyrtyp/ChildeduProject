@@ -29,4 +29,8 @@
                android:scaleType="fitCenter"
                android:src="?attr/actionModeCloseDrawable" />
 </com.actionbarsherlock.internal.nineoldandroids.widget.NineLinearLayout>
+<<<<<<< HEAD
 <!-- From: file:/C:/Users/GYH/.ssh/ChildeduProject/actionbarsherlock/res/layout/abs__action_mode_close_item.xml -->
+=======
+<!-- From: file:/home/yepeng/.ssh/ChildeduProject/actionbarsherlock/res/layout/abs__action_mode_close_item.xml -->
+>>>>>>> 2a4d97d63cb515d751d721447d53aa13ee1cb773

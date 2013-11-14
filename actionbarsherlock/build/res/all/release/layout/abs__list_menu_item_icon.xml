@@ -26,4 +26,8 @@
     android:scaleType="centerInside"
     android:duplicateParentState="true" />
 
+<<<<<<< HEAD
 <!-- From: file:/C:/Users/GYH/.ssh/ChildeduProject/actionbarsherlock/res/layout/abs__list_menu_item_icon.xml -->
+=======
+<!-- From: file:/home/yepeng/.ssh/ChildeduProject/actionbarsherlock/res/layout/abs__list_menu_item_icon.xml -->
+>>>>>>> 2a4d97d63cb515d751d721447d53aa13ee1cb773

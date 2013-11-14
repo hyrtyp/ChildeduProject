@@ -24,4 +24,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:ellipsize="marquee" />
+<<<<<<< HEAD
 <!-- From: file:/C:/Users/GYH/.ssh/ChildeduProject/actionbarsherlock/res/layout/sherlock_spinner_item.xml -->
+=======
+<!-- From: file:/home/yepeng/.ssh/ChildeduProject/actionbarsherlock/res/layout/sherlock_spinner_item.xml -->
+>>>>>>> 2a4d97d63cb515d751d721447d53aa13ee1cb773
