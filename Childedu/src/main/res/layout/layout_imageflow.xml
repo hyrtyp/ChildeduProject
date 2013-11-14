@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            android:layout_centerInParent="true"/>
+        <ZoomControls
+            android:id="@+id/zoomButtons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#33000000"
+            android:gravity="center"
+            android:orientation="vertical" 
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center" 
+                android:id="@+id/imageflow_dot">
+
+                <View
+                    android:id="@+id/v_dot0"
+                    style="@style/dot_style"
+                    android:background="@drawable/dot_foucsed" />
+
+                <View
+                    android:id="@+id/v_dot1"
+                    style="@style/dot_style" />
+
+                <View
+                    android:id="@+id/v_dot2"
+                    style="@style/dot_style" />
+
+                <View
+                    android:id="@+id/v_dot3"
+                    style="@style/dot_style" />
+
+                <View
+                    android:id="@+id/v_dot4"
+                    style="@style/dot_style" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

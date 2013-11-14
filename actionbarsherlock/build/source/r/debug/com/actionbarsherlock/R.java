@@ -156,7 +156,16 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static int activityChooserViewStyle=0x7f01005f;
+<<<<<<< HEAD
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+=======
+<<<<<<< HEAD
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+=======
+        /**  From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values/abs__attrs.xml 
+         <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+>>>>>>> 3903523221af5947290153ff02241ecf5b69a9e3
+>>>>>>> 36d4538fec2e1be648d6505f89ef7cb243ba61e1
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
@@ -673,6 +682,9 @@ containing a value of this type.
         public static int windowSplitActionBar=0x7f01005d;
     }
     public static final class bool {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
         public static int abs__action_bar_embed_tabs=0x7f040000;
         public static int abs__action_bar_expanded_action_views_exclusive=0x7f040001;
         public static int abs__config_actionMenuItemAllCaps=0x7f040002;
@@ -681,6 +693,25 @@ containing a value of this type.
         public static int abs__split_action_bar_is_narrow=0x7f040005;
     }
     public static final class color {
+=======
+        /**  From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values/abs__bools.xml 
+ From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values-w480dp/abs__bools.xml 
+         */
+>>>>>>> 36d4538fec2e1be648d6505f89ef7cb243ba61e1
+        public static int abs__action_bar_embed_tabs=0x7f040000;
+        public static int abs__action_bar_expanded_action_views_exclusive=0x7f040001;
+        public static int abs__config_actionMenuItemAllCaps=0x7f040002;
+        public static int abs__config_allowActionMenuItemTextWithIcon=0x7f040003;
+        public static int abs__config_showMenuShortcutsWhenKeyboardPresent=0x7f040004;
+        public static int abs__split_action_bar_is_narrow=0x7f040005;
+    }
+    public static final class color {
+<<<<<<< HEAD
+=======
+        /**  From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values/abs__colors.xml 
+         */
+>>>>>>> 3903523221af5947290153ff02241ecf5b69a9e3
+>>>>>>> 36d4538fec2e1be648d6505f89ef7cb243ba61e1
         public static int abs__background_holo_dark=0x7f050000;
         public static int abs__background_holo_light=0x7f050001;
         public static int abs__bright_foreground_disabled_holo_dark=0x7f050002;
@@ -693,6 +724,21 @@ containing a value of this type.
         public static int abs__primary_text_holo_light=0x7f050009;
     }
     public static final class dimen {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        /**  From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values/abs__dimens.xml 
+ From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values-land/abs__dimens.xml 
+ From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values-large-hdpi-1024x600/abs__dimens.xml 
+ From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values-large-mdpi-1024x600/abs__dimens.xml 
+ From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values-large-land-hdpi-1024x600/abs__dimens.xml 
+ From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values-large-land-mdpi-1024x600/abs__dimens.xml 
+ From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values-xlarge/abs__dimens.xml 
+ From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values-sw600dp/abs__dimens.xml 
+         */
+>>>>>>> 3903523221af5947290153ff02241ecf5b69a9e3
+>>>>>>> 36d4538fec2e1be648d6505f89ef7cb243ba61e1
         public static int abs__action_bar_default_height=0x7f070000;
         public static int abs__action_bar_icon_vertical_padding=0x7f070001;
         public static int abs__action_bar_subtitle_bottom_margin=0x7f070002;
@@ -700,9 +746,25 @@ containing a value of this type.
         public static int abs__action_bar_subtitle_top_margin=0x7f070004;
         public static int abs__action_bar_title_text_size=0x7f070005;
         public static int abs__action_button_min_width=0x7f070006;
+<<<<<<< HEAD
         public static int abs__config_prefDialogWidth=0x7f070007;
         public static int abs__dialog_min_width_major=0x7f07000d;
         public static int abs__dialog_min_width_minor=0x7f07000e;
+=======
+<<<<<<< HEAD
+        public static int abs__config_prefDialogWidth=0x7f070007;
+        public static int abs__dialog_min_width_major=0x7f07000d;
+        public static int abs__dialog_min_width_minor=0x7f07000e;
+=======
+        /**  From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values/abs__config.xml 
+         */
+        public static int abs__config_prefDialogWidth=0x7f070007;
+        public static int abs__dialog_min_width_major=0x7f07000d;
+        public static int abs__dialog_min_width_minor=0x7f07000e;
+        /**  From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values/abs__dimens.xml 
+         */
+>>>>>>> 3903523221af5947290153ff02241ecf5b69a9e3
+>>>>>>> 36d4538fec2e1be648d6505f89ef7cb243ba61e1
         public static int abs__dropdownitem_icon_width=0x7f070008;
         public static int abs__dropdownitem_text_padding_left=0x7f070009;
         public static int abs__dropdownitem_text_padding_right=0x7f07000a;
@@ -829,6 +891,14 @@ containing a value of this type.
         public static int abs__action_bar_subtitle=0x7f060011;
         public static int abs__action_bar_title=0x7f060010;
         public static int abs__action_context_bar=0x7f060021;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        /**  From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values/abs__ids.xml 
+         */
+>>>>>>> 3903523221af5947290153ff02241ecf5b69a9e3
+>>>>>>> 36d4538fec2e1be648d6505f89ef7cb243ba61e1
         public static int abs__action_menu_divider=0x7f06000a;
         public static int abs__action_menu_presenter=0x7f06000b;
         public static int abs__action_mode_bar=0x7f060025;
@@ -876,6 +946,17 @@ containing a value of this type.
         public static int wrap_content=0x7f060009;
     }
     public static final class integer {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        /**  From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values/abs__dimens.xml 
+ From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values-w360dp/abs__dimens.xml 
+ From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values-w500dp/abs__dimens.xml 
+ From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values-w600dp/abs__dimens.xml 
+         */
+>>>>>>> 3903523221af5947290153ff02241ecf5b69a9e3
+>>>>>>> 36d4538fec2e1be648d6505f89ef7cb243ba61e1
         public static int abs__max_action_buttons=0x7f080000;
     }
     public static final class layout {
@@ -904,6 +985,14 @@ containing a value of this type.
         public static int sherlock_spinner_item=0x7f030016;
     }
     public static final class string {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        /**  From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values/abs__strings.xml 
+         */
+>>>>>>> 3903523221af5947290153ff02241ecf5b69a9e3
+>>>>>>> 36d4538fec2e1be648d6505f89ef7cb243ba61e1
         public static int abs__action_bar_home_description=0x7f090000;
         public static int abs__action_bar_up_description=0x7f090001;
         public static int abs__action_menu_overflow_description=0x7f090002;
@@ -919,10 +1008,27 @@ containing a value of this type.
         public static int abs__shareactionprovider_share_with_application=0x7f09000c;
     }
     public static final class style {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
         public static int Sherlock___TextAppearance_Small=0x7f0a0000;
         public static int Sherlock___Theme=0x7f0a0001;
         public static int Sherlock___Theme_DarkActionBar=0x7f0a0002;
         public static int Sherlock___Theme_Light=0x7f0a0003;
+=======
+        /**  From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values/abs__styles.xml 
+         */
+>>>>>>> 36d4538fec2e1be648d6505f89ef7cb243ba61e1
+        public static int Sherlock___TextAppearance_Small=0x7f0a0000;
+        public static int Sherlock___Theme=0x7f0a0001;
+        public static int Sherlock___Theme_DarkActionBar=0x7f0a0002;
+        public static int Sherlock___Theme_Light=0x7f0a0003;
+<<<<<<< HEAD
+=======
+        /**  From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values/abs__styles.xml 
+         */
+>>>>>>> 3903523221af5947290153ff02241ecf5b69a9e3
+>>>>>>> 36d4538fec2e1be648d6505f89ef7cb243ba61e1
         public static int Sherlock___Widget_ActionBar=0x7f0a0004;
         public static int Sherlock___Widget_ActionMode=0x7f0a0005;
         public static int Sherlock___Widget_ActivityChooserView=0x7f0a0006;
@@ -935,6 +1041,14 @@ containing a value of this type.
         public static int TextAppearance_Sherlock_Light_SearchResult_Subtitle=0x7f0a000d;
         public static int TextAppearance_Sherlock_Light_SearchResult_Title=0x7f0a000e;
         public static int TextAppearance_Sherlock_Light_Small=0x7f0a000f;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        /**  From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values-v14/abs__styles.xml 
+         */
+>>>>>>> 3903523221af5947290153ff02241ecf5b69a9e3
+>>>>>>> 36d4538fec2e1be648d6505f89ef7cb243ba61e1
         public static int TextAppearance_Sherlock_Light_Widget_PopupMenu_Large=0x7f0a0010;
         public static int TextAppearance_Sherlock_Light_Widget_PopupMenu_Small=0x7f0a0011;
         public static int TextAppearance_Sherlock_SearchResult=0x7f0a0012;
@@ -956,12 +1070,31 @@ containing a value of this type.
         public static int TextAppearance_Sherlock_Widget_PopupMenu_Large=0x7f0a0022;
         public static int TextAppearance_Sherlock_Widget_PopupMenu_Small=0x7f0a0023;
         public static int TextAppearance_Sherlock_Widget_TextView_SpinnerItem=0x7f0a0024;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
         public static int Theme_Sherlock=0x7f0a0025;
         public static int Theme_Sherlock_Light=0x7f0a0026;
         public static int Theme_Sherlock_Light_DarkActionBar=0x7f0a0027;
         public static int Theme_Sherlock_Light_NoActionBar=0x7f0a0028;
         public static int Theme_Sherlock_NoActionBar=0x7f0a0029;
         public static int Widget=0x7f0a002a;
+=======
+        /**  From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values/abs__themes.xml 
+         */
+>>>>>>> 36d4538fec2e1be648d6505f89ef7cb243ba61e1
+        public static int Theme_Sherlock=0x7f0a0025;
+        public static int Theme_Sherlock_Light=0x7f0a0026;
+        public static int Theme_Sherlock_Light_DarkActionBar=0x7f0a0027;
+        public static int Theme_Sherlock_Light_NoActionBar=0x7f0a0028;
+        public static int Theme_Sherlock_NoActionBar=0x7f0a0029;
+        public static int Widget=0x7f0a002a;
+<<<<<<< HEAD
+=======
+        /**  From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values-v14/abs__styles.xml 
+         */
+>>>>>>> 3903523221af5947290153ff02241ecf5b69a9e3
+>>>>>>> 36d4538fec2e1be648d6505f89ef7cb243ba61e1
         public static int Widget_Sherlock_ActionBar=0x7f0a002b;
         public static int Widget_Sherlock_ActionBar_Solid=0x7f0a002c;
         public static int Widget_Sherlock_ActionBar_TabBar=0x7f0a002d;
@@ -1010,7 +1143,15 @@ containing a value of this type.
         public static int Widget_Sherlock_TextView_SpinnerItem=0x7f0a0058;
     }
     public static final class styleable {
+<<<<<<< HEAD
         /** Attributes that can be used with a SherlockActionBar.
+=======
+<<<<<<< HEAD
+        /** Attributes that can be used with a SherlockActionBar.
+=======
+        /**  From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values/abs__attrs.xml 
+>>>>>>> 3903523221af5947290153ff02241ecf5b69a9e3
+>>>>>>> 36d4538fec2e1be648d6505f89ef7cb243ba61e1
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />

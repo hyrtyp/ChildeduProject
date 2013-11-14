@@ -1,1 +1,5 @@
+<<<<<<< HEAD
+include ':actionbarsherlock',':datahelper',':Base', ':Childedu',':childedu_teacher', ':Account', ':childeduparent'
+=======
 include ':datahelper', ':Childedu',':actionbarsherlock', ':childedu_teacher'
+>>>>>>> 3903523221af5947290153ff02241ecf5b69a9e3

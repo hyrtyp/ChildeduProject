@@ -39,7 +39,7 @@ import com.actionbarsherlock.view.MenuItem;
 import com.actionbarsherlock.view.SubMenu;
 
 public class SampleList extends SherlockListActivity {
-    public static int THEME = R.style.Theme_Sherlock;
+    public static int THEME = R.style.Theme_Sherlock_Light_DarkActionBar;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

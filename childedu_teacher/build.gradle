@@ -25,3 +25,6 @@ android {
 dependencies {
     compile project(':actionbarsherlock')
 }
+tasks.withType(Compile){
+    options.encoding="UTF-8"
+}

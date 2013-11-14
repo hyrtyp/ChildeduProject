@@ -1,13 +1,13 @@
 package com.hyrt.datahelper.student.request;
 
-import com.hyrt.datahelper.model.LoginUser;
+import com.hyrt.datahelper.student.model.LoginUser;
 import com.hyrt.datahelper.student.service.StudentService;
 import com.octo.android.robospice.request.springandroid.SpringAndroidSpiceRequest;
 
 /**
  * Created by GYH on 13-10-12.
  */
-public class LoginRequest extends SpringAndroidSpiceRequest<LoginUser.List> {
+public class LoginRequest extends SpringAndroidSpiceRequest<LoginUser.List>{
 
     private String username;
     private String password;

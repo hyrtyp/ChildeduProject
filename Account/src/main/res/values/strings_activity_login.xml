@@ -1,0 +1,10 @@
+<resources>
+    
+    <!-- Strings related to login -->
+    <string name="prompt_usename">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="username">登录名</string>
+    <string name="password">密码</string>
+    <string name="required">Required</string>
+    <string name="password_length">Must be at least 8 characters</string>
+</resources>

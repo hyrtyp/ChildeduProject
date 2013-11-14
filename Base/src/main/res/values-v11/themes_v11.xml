@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.Cei.ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:background">#ffffff</item>
+        <item name="android:titleTextStyle">@style/Widget.edu.ActionBar.Title.v</item>
+    </style>
+
+    <style name="Theme.Cei.Sherlock" parent="@style/Theme.edu.v">
+        <item name="android:actionBarStyle">@style/Widget.Cei.ActionBar</item>
+    </style>
+</resources>

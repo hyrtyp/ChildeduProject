@@ -35,3 +35,6 @@ dependencies {
         exclude module: 'xpp3'
     }
 }
+tasks.withType(Compile){
+    options.encoding="UTF-8"
+}

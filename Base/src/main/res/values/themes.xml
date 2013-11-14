@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v11  v14 设置actionbar 的字体大小-->
+    <style name="Widget.edu.ActionBar.Title.v" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <!-- v11  v14 设置 是否全屏-->
+    <style name="Theme.edu.v" parent="Sherlock.__Theme">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- v11 以下 -->
+    <style name="Widget.edu.ActionBar.Title" parent="@style/TextAppearance.Sherlock.Widget.ActionBar.Title">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <!-- v11 以下 -->
+    <style name="Widget.edu.ActionBar" parent="Widget.Sherlock.ActionBar">
+        <item name="background">#000000</item>
+        <item name="titleTextStyle">@style/Widget.edu.ActionBar.Title</item>
+    </style>
+    <!-- v11 以下 -->
+    <style name="Theme.edu.Sherlock" parent="Theme.edu">
+        <item name="actionBarStyle">@style/Widget.edu.ActionBar</item>
+    </style>
+
+    <!-- v11 以下 -->
+    <style name="Theme.edu" parent="Theme.Sherlock">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+</resources>
