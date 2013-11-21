@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.widget.Toast;
 
 import com.actionbarsherlock.view.Menu;
+import com.actionbarsherlock.view.MenuInflater;
 import com.actionbarsherlock.view.MenuItem;
 import com.hyrt.base.BaseActivity;
 import com.hyrt.datahelper.account.model.Accountmodel;
@@ -26,10 +27,18 @@ public class LoginActivity extends BaseActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
+//        menu.add("Login")
+//                .setChecked(false)
+//                .setTitle("登录")
+//                .setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
+        menu.findItem(R.id.action_websearch);
         menu.add("Login")
+                .setChecked(false)
                 .setTitle("登录")
                 .setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
-        return true;
+        MenuInflater inflater = getSupportMenuInflater();
+        inflater.inflate(R.menu.school_menu, menu);
+        return super.onCreateOptionsMenu(menu);
     }
 
     @Override

@@ -30,6 +30,7 @@ dependencies {
     compile 'org.codehaus.jackson:jackson-mapper-asl:1.9.11'
     compile 'com.octo.android.robospice:robospice-retrofit:1.4.5'
     compile 'com.github.rtyley:roboguice-sherlock:1.5'
+    compile 'com.jayway.android.robotium:robotium-solo:4.3'
     compile project(':actionbarsherlock')
 }
 

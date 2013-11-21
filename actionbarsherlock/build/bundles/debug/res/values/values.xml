@@ -1,91 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
 
-<<<<<<< HEAD
-    <!-- From: file:/home/yepeng/.ssh/ChildeduProject/actionbarsherlock/res/values/abs__attrs.xml -->
+    <!-- From: file:/C:/Users/GYH/.ssh/ChildeduProject/actionbarsherlock/res/values/abs__attrs.xml -->
     <eat-comment />
 
-=======
-<<<<<<< HEAD
-    <!-- From: file:/D:/Users/GYH/workspace/ChildeduProject/actionbarsherlock/res/values/abs__attrs.xml -->
-    <eat-comment />
-
-=======
-    <!-- From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values/abs__attrs.xml -->
->>>>>>> 3903523221af5947290153ff02241ecf5b69a9e3
->>>>>>> 36d4538fec2e1be648d6505f89ef7cb243ba61e1
     <attr name="background" format="reference|color" />
     <attr name="backgroundSplit" format="reference|color" />
     <attr name="divider" format="reference" />
     <attr name="height" format="dimension" />
     <attr name="subtitleTextStyle" format="reference" />
     <attr name="titleTextStyle" format="reference" />
-<<<<<<< HEAD
-    <!-- From: file:/home/yepeng/.ssh/ChildeduProject/actionbarsherlock/res/values/abs__bools.xml -->
-    <eat-comment />
-
-=======
-<<<<<<< HEAD
-    <!-- From: file:/D:/Users/GYH/workspace/ChildeduProject/actionbarsherlock/res/values/abs__bools.xml -->
+    <!-- From: file:/C:/Users/GYH/.ssh/ChildeduProject/actionbarsherlock/res/values/abs__bools.xml -->
     <eat-comment />
 
     <bool name="abs__action_bar_embed_tabs">false</bool>
     <bool name="abs__action_bar_expanded_action_views_exclusive">true</bool>
-    <!-- From: file:/D:/Users/GYH/workspace/ChildeduProject/actionbarsherlock/res/values/abs__config.xml -->
+    <!-- From: file:/C:/Users/GYH/.ssh/ChildeduProject/actionbarsherlock/res/values/abs__config.xml -->
     <eat-comment />
 
     <bool name="abs__config_actionMenuItemAllCaps">true</bool>
     <bool name="abs__config_allowActionMenuItemTextWithIcon">false</bool>
     <bool name="abs__config_showMenuShortcutsWhenKeyboardPresent">false</bool>
-    <!-- From: file:/D:/Users/GYH/workspace/ChildeduProject/actionbarsherlock/res/values/abs__bools.xml -->
+    <!-- From: file:/C:/Users/GYH/.ssh/ChildeduProject/actionbarsherlock/res/values/abs__bools.xml -->
     <eat-comment />
 
     <bool name="abs__split_action_bar_is_narrow">true</bool>
-    <!-- From: file:/D:/Users/GYH/workspace/ChildeduProject/actionbarsherlock/res/values/abs__colors.xml -->
+    <!-- From: file:/C:/Users/GYH/.ssh/ChildeduProject/actionbarsherlock/res/values/abs__colors.xml -->
     <eat-comment />
 
-=======
-    <!-- From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values/abs__bools.xml -->
->>>>>>> 36d4538fec2e1be648d6505f89ef7cb243ba61e1
-    <bool name="abs__action_bar_embed_tabs">false</bool>
-    <bool name="abs__action_bar_expanded_action_views_exclusive">true</bool>
-    <!-- From: file:/home/yepeng/.ssh/ChildeduProject/actionbarsherlock/res/values/abs__config.xml -->
-    <eat-comment />
-
-    <bool name="abs__config_actionMenuItemAllCaps">true</bool>
-    <bool name="abs__config_allowActionMenuItemTextWithIcon">false</bool>
-    <bool name="abs__config_showMenuShortcutsWhenKeyboardPresent">false</bool>
-    <!-- From: file:/home/yepeng/.ssh/ChildeduProject/actionbarsherlock/res/values/abs__bools.xml -->
-    <eat-comment />
-
-    <bool name="abs__split_action_bar_is_narrow">true</bool>
-<<<<<<< HEAD
-    <!-- From: file:/home/yepeng/.ssh/ChildeduProject/actionbarsherlock/res/values/abs__colors.xml -->
-    <eat-comment />
-
-=======
-    <!-- From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values/abs__colors.xml -->
->>>>>>> 3903523221af5947290153ff02241ecf5b69a9e3
->>>>>>> 36d4538fec2e1be648d6505f89ef7cb243ba61e1
     <color name="abs__background_holo_dark">#ff000000</color>
     <color name="abs__background_holo_light">#fff3f3f3</color>
     <color name="abs__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
     <color name="abs__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
     <color name="abs__bright_foreground_holo_dark">@color/abs__background_holo_light</color>
     <color name="abs__bright_foreground_holo_light">@color/abs__background_holo_dark</color>
-<<<<<<< HEAD
-    <!-- From: file:/home/yepeng/.ssh/ChildeduProject/actionbarsherlock/res/values/abs__attrs.xml -->
+    <!-- From: file:/C:/Users/GYH/.ssh/ChildeduProject/actionbarsherlock/res/values/abs__attrs.xml -->
     <eat-comment />
 
-=======
-<<<<<<< HEAD
-    <!-- From: file:/D:/Users/GYH/workspace/ChildeduProject/actionbarsherlock/res/values/abs__attrs.xml -->
-    <eat-comment />
-
-=======
-    <!-- From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values/abs__attrs.xml -->
->>>>>>> 3903523221af5947290153ff02241ecf5b69a9e3
->>>>>>> 36d4538fec2e1be648d6505f89ef7cb243ba61e1
     <declare-styleable name="SherlockActionBar">
 
         <!-- The type of navigation to use. -->
@@ -530,19 +481,9 @@
     <declare-styleable name="SherlockView">
         <attr name="android:focusable" />
     </declare-styleable>
-<<<<<<< HEAD
-    <!-- From: file:/home/yepeng/.ssh/ChildeduProject/actionbarsherlock/res/values/abs__dimens.xml -->
+    <!-- From: file:/C:/Users/GYH/.ssh/ChildeduProject/actionbarsherlock/res/values/abs__dimens.xml -->
     <eat-comment />
 
-=======
-<<<<<<< HEAD
-    <!-- From: file:/D:/Users/GYH/workspace/ChildeduProject/actionbarsherlock/res/values/abs__dimens.xml -->
-    <eat-comment />
-
-=======
-    <!-- From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values/abs__dimens.xml -->
->>>>>>> 3903523221af5947290153ff02241ecf5b69a9e3
->>>>>>> 36d4538fec2e1be648d6505f89ef7cb243ba61e1
     <dimen name="abs__action_bar_default_height">48dip</dimen>
     <dimen name="abs__action_bar_icon_vertical_padding">8dip</dimen>
     <dimen name="abs__action_bar_subtitle_bottom_margin">5dip</dimen>
@@ -550,76 +491,34 @@
     <dimen name="abs__action_bar_subtitle_top_margin">-3dp</dimen>
     <dimen name="abs__action_bar_title_text_size">18dp</dimen>
     <dimen name="abs__action_button_min_width">56dip</dimen>
-<<<<<<< HEAD
-    <!-- From: file:/home/yepeng/.ssh/ChildeduProject/actionbarsherlock/res/values/abs__config.xml -->
+    <!-- From: file:/C:/Users/GYH/.ssh/ChildeduProject/actionbarsherlock/res/values/abs__config.xml -->
     <eat-comment />
 
     <dimen name="abs__config_prefDialogWidth">320dp</dimen>
-    <!-- From: file:/home/yepeng/.ssh/ChildeduProject/actionbarsherlock/res/values/abs__dimens.xml -->
+    <!-- From: file:/C:/Users/GYH/.ssh/ChildeduProject/actionbarsherlock/res/values/abs__dimens.xml -->
     <eat-comment />
 
-=======
-<<<<<<< HEAD
-    <!-- From: file:/D:/Users/GYH/workspace/ChildeduProject/actionbarsherlock/res/values/abs__config.xml -->
-    <eat-comment />
-
-    <dimen name="abs__config_prefDialogWidth">320dp</dimen>
-    <!-- From: file:/D:/Users/GYH/workspace/ChildeduProject/actionbarsherlock/res/values/abs__dimens.xml -->
-    <eat-comment />
-
-=======
-    <!-- From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values/abs__config.xml -->
-    <dimen name="abs__config_prefDialogWidth">320dp</dimen>
-    <!-- From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values/abs__dimens.xml -->
->>>>>>> 3903523221af5947290153ff02241ecf5b69a9e3
->>>>>>> 36d4538fec2e1be648d6505f89ef7cb243ba61e1
     <dimen name="abs__dropdownitem_icon_width">32dip</dimen>
     <dimen name="abs__dropdownitem_text_padding_left">8dip</dimen>
     <dimen name="abs__dropdownitem_text_padding_right">8dip</dimen>
     <dimen name="abs__search_view_preferred_width">320dip</dimen>
     <dimen name="abs__search_view_text_min_width">160dip</dimen>
-<<<<<<< HEAD
-    <!-- From: file:/home/yepeng/.ssh/ChildeduProject/actionbarsherlock/res/values/abs__ids.xml -->
+    <!-- From: file:/C:/Users/GYH/.ssh/ChildeduProject/actionbarsherlock/res/values/abs__ids.xml -->
     <eat-comment />
 
-=======
-<<<<<<< HEAD
-    <!-- From: file:/D:/Users/GYH/workspace/ChildeduProject/actionbarsherlock/res/values/abs__ids.xml -->
-    <eat-comment />
-
-=======
-    <!-- From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values/abs__ids.xml -->
->>>>>>> 3903523221af5947290153ff02241ecf5b69a9e3
->>>>>>> 36d4538fec2e1be648d6505f89ef7cb243ba61e1
     <item name="abs__action_menu_divider" type="id"/>
     <item name="abs__action_menu_presenter" type="id"/>
     <item name="abs__home" type="id"/>
     <item name="abs__progress_circular" type="id"/>
     <item name="abs__progress_horizontal" type="id"/>
     <item name="abs__up" type="id"/>
-<<<<<<< HEAD
-    <!-- From: file:/home/yepeng/.ssh/ChildeduProject/actionbarsherlock/res/values/abs__dimens.xml -->
+    <!-- From: file:/C:/Users/GYH/.ssh/ChildeduProject/actionbarsherlock/res/values/abs__dimens.xml -->
     <eat-comment />
 
     <integer name="abs__max_action_buttons">2</integer>
-    <!-- From: file:/home/yepeng/.ssh/ChildeduProject/actionbarsherlock/res/values/abs__strings.xml -->
+    <!-- From: file:/C:/Users/GYH/.ssh/ChildeduProject/actionbarsherlock/res/values/abs__strings.xml -->
     <eat-comment />
 
-=======
-<<<<<<< HEAD
-    <!-- From: file:/D:/Users/GYH/workspace/ChildeduProject/actionbarsherlock/res/values/abs__dimens.xml -->
-    <eat-comment />
-
-    <integer name="abs__max_action_buttons">2</integer>
-    <!-- From: file:/D:/Users/GYH/workspace/ChildeduProject/actionbarsherlock/res/values/abs__strings.xml -->
-    <eat-comment />
-
-=======
-    <!-- From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values/abs__dimens.xml -->
-    <integer name="abs__max_action_buttons">2</integer>
-    <!-- From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values/abs__strings.xml -->
->>>>>>> 3903523221af5947290153ff02241ecf5b69a9e3
->>>>>>> 36d4538fec2e1be648d6505f89ef7cb243ba61e1
     <string name="abs__action_bar_home_description">Navigate home</string>
     <string name="abs__action_bar_up_description">Navigate up</string>
     <string name="abs__action_menu_overflow_description">More options</string>
@@ -633,36 +532,16 @@
     <string name="abs__searchview_description_voice">Voice search</string>
     <string name="abs__shareactionprovider_share_with">Share with</string>
     <string name="abs__shareactionprovider_share_with_application">Share with <ns1:g id="application_name" example="Bluetooth">%s</ns1:g></string>
-<<<<<<< HEAD
-    <!-- From: file:/home/yepeng/.ssh/ChildeduProject/actionbarsherlock/res/values/abs__styles.xml -->
+    <!-- From: file:/C:/Users/GYH/.ssh/ChildeduProject/actionbarsherlock/res/values/abs__styles.xml -->
     <eat-comment />
 
-=======
-<<<<<<< HEAD
-    <!-- From: file:/D:/Users/GYH/workspace/ChildeduProject/actionbarsherlock/res/values/abs__styles.xml -->
-    <eat-comment />
-
-=======
-    <!-- From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values/abs__styles.xml -->
->>>>>>> 3903523221af5947290153ff02241ecf5b69a9e3
->>>>>>> 36d4538fec2e1be648d6505f89ef7cb243ba61e1
     <style name="Sherlock.__TextAppearance.Small" parent="Widget">
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">?android:attr/textColorSecondary</item>
     </style>
-<<<<<<< HEAD
-    <!-- From: file:/home/yepeng/.ssh/ChildeduProject/actionbarsherlock/res/values/abs__themes.xml -->
+    <!-- From: file:/C:/Users/GYH/.ssh/ChildeduProject/actionbarsherlock/res/values/abs__themes.xml -->
     <eat-comment />
 
-=======
-<<<<<<< HEAD
-    <!-- From: file:/D:/Users/GYH/workspace/ChildeduProject/actionbarsherlock/res/values/abs__themes.xml -->
-    <eat-comment />
-
-=======
-    <!-- From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values/abs__themes.xml -->
->>>>>>> 3903523221af5947290153ff02241ecf5b69a9e3
->>>>>>> 36d4538fec2e1be648d6505f89ef7cb243ba61e1
     <style name="Sherlock.__Theme" parent="android:Theme.NoTitleBar">
         <item name="android:windowContentOverlay">@null</item>
     </style>
@@ -672,19 +551,9 @@
     <style name="Sherlock.__Theme.Light" parent="android:Theme.Light.NoTitleBar">
         <item name="android:windowContentOverlay">@null</item>
     </style>
-<<<<<<< HEAD
-    <!-- From: file:/home/yepeng/.ssh/ChildeduProject/actionbarsherlock/res/values/abs__styles.xml -->
+    <!-- From: file:/C:/Users/GYH/.ssh/ChildeduProject/actionbarsherlock/res/values/abs__styles.xml -->
     <eat-comment />
 
-=======
-<<<<<<< HEAD
-    <!-- From: file:/D:/Users/GYH/workspace/ChildeduProject/actionbarsherlock/res/values/abs__styles.xml -->
-    <eat-comment />
-
-=======
-    <!-- From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values/abs__styles.xml -->
->>>>>>> 3903523221af5947290153ff02241ecf5b69a9e3
->>>>>>> 36d4538fec2e1be648d6505f89ef7cb243ba61e1
     <style name="Sherlock.__Widget.ActionBar" parent="Widget">
         <item name="displayOptions">useLogo|showHome|showTitle</item>
         <item name="height">?attr/actionBarSize</item>
@@ -856,19 +725,9 @@
         <item name="android:textSize">16sp</item>
         <item name="android:textStyle">normal</item>
     </style>
-<<<<<<< HEAD
-    <!-- From: file:/home/yepeng/.ssh/ChildeduProject/actionbarsherlock/res/values/abs__themes.xml -->
+    <!-- From: file:/C:/Users/GYH/.ssh/ChildeduProject/actionbarsherlock/res/values/abs__themes.xml -->
     <eat-comment />
 
-=======
-<<<<<<< HEAD
-    <!-- From: file:/D:/Users/GYH/workspace/ChildeduProject/actionbarsherlock/res/values/abs__themes.xml -->
-    <eat-comment />
-
-=======
-    <!-- From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values/abs__themes.xml -->
->>>>>>> 3903523221af5947290153ff02241ecf5b69a9e3
->>>>>>> 36d4538fec2e1be648d6505f89ef7cb243ba61e1
     <style name="Theme.Sherlock" parent="Sherlock.__Theme">
 
         <!-- Action bar styles (from Theme.Holo) -->
@@ -1049,19 +908,9 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
-<<<<<<< HEAD
-    <!-- From: file:/home/yepeng/.ssh/ChildeduProject/actionbarsherlock/res/values/abs__styles.xml -->
+    <!-- From: file:/C:/Users/GYH/.ssh/ChildeduProject/actionbarsherlock/res/values/abs__styles.xml -->
     <eat-comment />
 
-=======
-<<<<<<< HEAD
-    <!-- From: file:/D:/Users/GYH/workspace/ChildeduProject/actionbarsherlock/res/values/abs__styles.xml -->
-    <eat-comment />
-
-=======
-    <!-- From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values/abs__styles.xml -->
->>>>>>> 3903523221af5947290153ff02241ecf5b69a9e3
->>>>>>> 36d4538fec2e1be648d6505f89ef7cb243ba61e1
     <style name="Widget"></style>
 
     <style name="Widget.Sherlock.ActionBar" parent="Sherlock.__Widget.ActionBar">

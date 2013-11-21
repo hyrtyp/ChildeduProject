@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-<<<<<<< HEAD
-    <!-- From: file:/home/yepeng/.ssh/ChildeduProject/actionbarsherlock/res/values-large-land-hdpi-1024x600/abs__dimens.xml -->
+    <!-- From: file:/C:/Users/GYH/.ssh/ChildeduProject/actionbarsherlock/res/values-large-land-hdpi-1024x600/abs__dimens.xml -->
     <eat-comment />
 
-=======
-<<<<<<< HEAD
-    <!-- From: file:/D:/Users/GYH/workspace/ChildeduProject/actionbarsherlock/res/values-large-land-hdpi-1024x600/abs__dimens.xml -->
-    <eat-comment />
-
-=======
-    <!-- From: file:/var/lib/jenkins/workspace/ChildeduProject/actionbarsherlock/res/values-large-land-hdpi-1024x600/abs__dimens.xml -->
->>>>>>> 3903523221af5947290153ff02241ecf5b69a9e3
->>>>>>> 36d4538fec2e1be648d6505f89ef7cb243ba61e1
     <dimen name="abs__action_bar_default_height">40dip</dimen>
     <dimen name="abs__action_bar_icon_vertical_padding">4dip</dimen>
     <dimen name="abs__action_bar_subtitle_bottom_margin">4dip</dimen>

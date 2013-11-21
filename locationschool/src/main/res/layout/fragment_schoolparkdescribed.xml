@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="首都师范大学幼儿教育中心隶属于首都师范大学，成立于1956年，至今具有五十余年的教学历史。五十载春华秋实，半世纪岁月如歌，我园着力营造出了一支团结奋进的幼教团队。在继承园所优秀教学传统的同时与时俱进，持续沿着教师教学业务与综合素质全面提升的发展方向；坚持幼儿多元化综合素质培养与个性化发展并行的教育指导策略。"
+        style="@style/textApptheme"/>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/ic_launcher"
+        android:textDirection="rtl"/>
+</LinearLayout>

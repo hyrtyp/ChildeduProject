@@ -74,6 +74,8 @@
     <orderEntry type="library" exported="" name="robospice-ui-spicelist-1.4.5" level="project" />
     <orderEntry type="library" exported="" name="robospice-spring-android-1.4.6" level="project" />
     <orderEntry type="library" exported="" name="gson-2.2.4" level="project" />
+    <orderEntry type="module" module-name="actionbarsherlock" exported="" />
+    <orderEntry type="library" exported="" name="robotium-solo-4.3" level="project" />
     <orderEntry type="library" exported="" name="aopalliance-1.0" level="project" />
     <orderEntry type="library" exported="" name="retrofit-1.0.2" level="project" />
     <orderEntry type="library" exported="" name="roboguice-sherlock-1.5" level="project" />

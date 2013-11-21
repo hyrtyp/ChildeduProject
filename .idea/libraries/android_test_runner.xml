@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="android.test.runner">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/Account/libs/android.test.runner.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

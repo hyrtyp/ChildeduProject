@@ -11,7 +11,6 @@ apply plugin: 'android'
 apply plugin: 'maven'
 apply plugin: 'spoon'
 
-// for debug output
 spoon {
     debug = true
 }
@@ -31,16 +30,12 @@ repositories {
 }
 
 dependencies {
-	compile 'org.roboguice:roboguice:2.0'
-	compile 'com.octo.android.robospice:robospice:1.4.6'
-	compile 'com.octo.android.robospice:robospice-spring-android:1.4.6'
-	compile 'com.octo.android.robospice:robospice-ui-spicelist:1.4.5'
-	compile 'org.codehaus.jackson:jackson-mapper-asl:1.9.11'
-	compile 'com.octo.android.robospice:robospice-retrofit:1.4.5'
-	compile 'com.github.rtyley:roboguice-sherlock:1.5'
-	compile 'com.jayway.android.robotium:robotium-solo:4.3'
-    compile project(':actionbarsherlock')
+    compile 'org.roboguice:roboguice:2.0'
+    compile 'com.jayway.android.robotium:robotium-solo:4.3'
+    compile 'com.github.rtyley:roboguice-sherlock:1.5'
+    compile 'com.octo.android.robospice:robospice-ui-spicelist:1.4.5'
     compile project(':childedu_teacher')
+    compile project(':actionbarsherlock')
     compile project(':datahelper')
 }
 tasks.withType(Compile){
