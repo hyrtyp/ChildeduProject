@@ -2,10 +2,6 @@
   <library name="guice-3.0-no_aop">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.google.inject/guice/3.0/jar/28586dc97c525501329d9a242fc3402041e3572d/guice-3.0-no_aop.jar!/" />
-<<<<<<< HEAD
-=======
-      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.google.inject/guice/3.0/jar/28586dc97c525501329d9a242fc3402041e3572d/guice-3.0-no_aop.jar!/" />
->>>>>>> 2a4d97d63cb515d751d721447d53aa13ee1cb773
     </CLASSES>
     <JAVADOC />
     <SOURCES />

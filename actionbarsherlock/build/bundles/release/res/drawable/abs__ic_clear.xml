@@ -20,8 +20,4 @@
     <item
          android:drawable="@drawable/abs__ic_clear_normal" />
 </selector>
-<<<<<<< HEAD
 <!-- From: file:/C:/Users/GYH/.ssh/ChildeduProject/actionbarsherlock/res/drawable/abs__ic_clear.xml -->
-=======
-<!-- From: file:/home/yepeng/.ssh/ChildeduProject/actionbarsherlock/res/drawable/abs__ic_clear.xml -->
->>>>>>> 2a4d97d63cb515d751d721447d53aa13ee1cb773

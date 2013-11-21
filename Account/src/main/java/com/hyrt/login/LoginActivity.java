@@ -37,7 +37,7 @@ public class LoginActivity extends BaseActivity {
                 .setTitle("登录")
                 .setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
         MenuInflater inflater = getSupportMenuInflater();
-        inflater.inflate(R.menu.main, menu);
+        inflater.inflate(R.menu.school_menu, menu);
         return super.onCreateOptionsMenu(menu);
     }
 

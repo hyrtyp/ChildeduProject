@@ -37,7 +37,7 @@ android {
 }
 
 dependencies {
-    compile project(':Base')
+    compile project(':locationschool')
     compile project(':datahelper')
     instrumentTestCompile "com.squareup.spoon:spoon-client:1.0.5"
 }

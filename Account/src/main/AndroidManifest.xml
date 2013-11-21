@@ -14,16 +14,32 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
-        android:theme="@style/Theme.edu.Sherlock" >
+        android:windowSoftInputMode="adjustPan|stateHidden"
+        android:theme="@style/Theme.edu.Sherlock"
+        android:label="@string/app_name">
         <activity
-            android:name=".LoginActivity"
-            android:label="@string/app_name"
+            android:name=".LogoActivity"
+            android:label="logo"
             android:windowSoftInputMode="adjustResize|stateVisible" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name="com.hyrt.locationschool.LocationSchoolActivity"
+            android:label="locaschool"
+            android:windowSoftInputMode="adjustResize|stateVisible">
+        </activity>
+        <activity
+            android:name="com.hyrt.locationschool.SchoolInformation"
+            android:label="infor"
+            android:windowSoftInputMode="adjustResize|stateVisible">
         </activity>
         <service
             android:name="com.octo.android.robospice.JacksonSpringAndroidSpiceService"

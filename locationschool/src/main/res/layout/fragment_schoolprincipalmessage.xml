@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_launcher"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="王园长\n女\n 35岁"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            style="@style/textApptheme"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="幼儿园园长 王园长首都师范大学信息化示范园 ，女，党员      ， 我的用心和努力，可以给孩子以健康和发展，给家长和社会满意，给教职工成长和满足。成就她人就是成就自己，我会加倍用心和努力！      ，教育教学论文多次在省、市、区荣获一、二、三等奖；市、区报刊杂志上发表各种学术文章；荣获过全国、省、市、区多次荣誉奖，几十年潜心教育教学工作研"
+        style="@style/textApptheme"/>
+</LinearLayout>

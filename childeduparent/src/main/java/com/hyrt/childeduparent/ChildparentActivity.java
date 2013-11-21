@@ -1,20 +1,18 @@
 package com.hyrt.childeduparent;
-import android.app.Fragment;
-import android.app.FragmentManager;
-import android.app.SearchManager;
-import android.content.Intent;
+
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
+import android.support.v4.app.Fragment;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.SimpleAdapter;
 import android.widget.Toast;
 
 import com.actionbarsherlock.view.Menu;
@@ -22,6 +20,8 @@ import com.actionbarsherlock.view.MenuInflater;
 import com.actionbarsherlock.view.MenuItem;
 import com.github.rtyley.android.sherlock.roboguice.activity.RoboSherlockFragmentActivity;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Locale;
 
 public class ChildparentActivity extends RoboSherlockFragmentActivity {
@@ -44,19 +44,38 @@ public class ChildparentActivity extends RoboSherlockFragmentActivity {
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         mDrawerList = (ListView) findViewById(R.id.left_drawer);
 
-        // set a custom shadow that overlays the main content when the drawer opens
         mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
-        // set up the drawer's list view with items and click listener
-        mDrawerList.setAdapter(new ArrayAdapter<String>(this,
-                R.layout.drawer_list_item, mPlanetTitles));
-        mDrawerList.setOnItemClickListener(new DrawerItemClickListener());
 
-        // enable ActionBar app icon to behave as action to toggle nav drawer
+        ArrayList<HashMap<String, Object>> listItem = new ArrayList<HashMap<String, Object>>();
+
+//        mDrawerList.setAdapter(new ArrayAdapter<String>(this,R.layout.drawer_list_item, mPlanetTitles));
+
+        for(int i=0;i<mPlanetTitles.length;i++){
+            HashMap<String, Object> map = new HashMap<String, Object>();
+            map.put("itemTitle", mPlanetTitles[i]);
+            listItem.add(map);
+        }
+
+        SimpleAdapter listItemAdapter = new SimpleAdapter(this,listItem,//数据源
+                R.layout.drawer_list_item,//ListItem的XML实现
+                //动态数组与ImageItem对应的子项
+                new String[] {"itemTitle"},
+                //ImageItem的XML文件里面的一个ImageView,两个TextView ID
+                new int[] {R.id.text1}
+        );
+
+        //添加并且显示
+        mDrawerList.setAdapter(listItemAdapter);
+
+
+        mDrawerList.setOnItemClickListener(new DrawerItemClickListener());
+//
+//        // enable ActionBar app icon to behave as action to toggle nav drawer
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
-
-        // ActionBarDrawerToggle ties together the the proper interactions
-        // between the sliding drawer and the action bar app icon
+//
+//        // ActionBarDrawerToggle ties together the the proper interactions
+//        // between the sliding drawer and the action bar app icon
         mDrawerToggle = new ActionBarDrawerToggle(
                 this,                  /* host Activity */
                 mDrawerLayout,         /* DrawerLayout object */
@@ -65,12 +84,12 @@ public class ChildparentActivity extends RoboSherlockFragmentActivity {
                 R.string.drawer_close  /* "close drawer" description for accessibility */
         ) {
             public void onDrawerClosed(View view) {
-                getActionBar().setTitle(mTitle);
+                getSupportActionBar().setTitle(mTitle);
                 invalidateOptionsMenu(); // creates call to onPrepareOptionsMenu()
             }
 
             public void onDrawerOpened(View drawerView) {
-                getActionBar().setTitle(mDrawerTitle);
+                getSupportActionBar().setTitle(mDrawerTitle);
                 invalidateOptionsMenu(); // creates call to onPrepareOptionsMenu()
             }
         };
@@ -135,15 +154,15 @@ public class ChildparentActivity extends RoboSherlockFragmentActivity {
         return false;
     }
 
-
-    /* The click listner for ListView in the navigation drawer */
+//
+//    /* The click listner for ListView in the navigation drawer */
     private class DrawerItemClickListener implements ListView.OnItemClickListener {
         @Override
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
             selectItem(position);
         }
     }
-
+//
     private void selectItem(int position) {
         // update the main content by replacing fragments
 //        Fragment fragment = new PlanetFragment();
@@ -159,7 +178,7 @@ public class ChildparentActivity extends RoboSherlockFragmentActivity {
 //        setTitle(mPlanetTitles[position]);
         mDrawerLayout.closeDrawer(mDrawerList);
     }
-
+//
     @Override
     public void setTitle(CharSequence title) {
         mTitle = title;

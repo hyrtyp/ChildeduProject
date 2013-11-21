@@ -2,10 +2,6 @@
   <library name="javax.inject-1">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/javax.inject/javax.inject/1/jar/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar!/" />
-<<<<<<< HEAD
-=======
-      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/javax.inject/javax.inject/1/jar/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar!/" />
->>>>>>> 2a4d97d63cb515d751d721447d53aa13ee1cb773
     </CLASSES>
     <JAVADOC />
     <SOURCES />

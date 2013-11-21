@@ -2,10 +2,6 @@
   <library name="roboguice-2.0">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.roboguice/roboguice/2.0/jar/727ccb8f376109d0b5c44abca6f791dccc5c5dbc/roboguice-2.0.jar!/" />
-<<<<<<< HEAD
-=======
-      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.roboguice/roboguice/2.0/jar/727ccb8f376109d0b5c44abca6f791dccc5c5dbc/roboguice-2.0.jar!/" />
->>>>>>> 2a4d97d63cb515d751d721447d53aa13ee1cb773
     </CLASSES>
     <JAVADOC />
     <SOURCES />

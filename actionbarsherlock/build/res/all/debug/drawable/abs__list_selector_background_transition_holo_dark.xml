@@ -18,8 +18,4 @@
     <item android:drawable="@drawable/abs__list_pressed_holo_dark"  />
     <item android:drawable="@drawable/abs__list_longpressed_holo"  />
 </transition>
-<<<<<<< HEAD
 <!-- From: file:/C:/Users/GYH/.ssh/ChildeduProject/actionbarsherlock/res/drawable/abs__list_selector_background_transition_holo_dark.xml -->
-=======
-<!-- From: file:/home/yepeng/.ssh/ChildeduProject/actionbarsherlock/res/drawable/abs__list_selector_background_transition_holo_dark.xml -->
->>>>>>> 2a4d97d63cb515d751d721447d53aa13ee1cb773

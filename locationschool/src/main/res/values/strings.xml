@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Module</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">打开</string>
+    <string name="drawer_close">关闭</string>
+    <string-array name="schoolinfor_array">
+        <item>通知公告</item>
+        <item>园长寄语</item>
+        <item>活动剪影</item>
+        <item>明星教师</item>
+        <item>精彩视频</item>
+        <item>明星宝宝</item>
+        <item>班级设置</item>
+        <item>每周食谱</item>
+        <item>全景展示</item>
+        <item>园所介绍</item>
+        <item>留言板</item>
+    </string-array>
+    <string-array name="spinnerquyu">
+        <item>东城区</item>
+        <item>西城区</item>
+        <item>西城区</item>
+        <item>西城区</item>
+    </string-array>
+    <string-array name="spinnerxingzhi">
+        <item>民办</item>
+        <item>公办</item>
+    </string-array>
+    <string-array name="spinnerbxgm">
+        <item>0-50人</item>
+        <item>50-100人</item>
+        <item>100-200人</item>
+        <item>200-500人</item>
+    </string-array>
+    <string-array name="city_array">
+        <item>北京</item>
+        <item>上海</item>
+        <item>广州</item>
+        <item>深圳</item>
+        <item>北京</item>
+        <item>上海</item>
+        <item>广州</item>
+        <item>深圳</item>
+        <item>北京</item>
+        <item>上海</item>
+        <item>广州</item>
+        <item>深圳</item>
+    </string-array>
+</resources>

@@ -36,8 +36,4 @@ enabled.
               android:layout_width="fill_parent"
               android:layout_height="wrap_content" />
 </FrameLayout>
-<<<<<<< HEAD
 <!-- From: file:/C:/Users/GYH/.ssh/ChildeduProject/actionbarsherlock/res/layout/abs__screen_simple_overlay_action_mode.xml -->
-=======
-<!-- From: file:/home/yepeng/.ssh/ChildeduProject/actionbarsherlock/res/layout/abs__screen_simple_overlay_action_mode.xml -->
->>>>>>> 2a4d97d63cb515d751d721447d53aa13ee1cb773

@@ -11,13 +11,9 @@ apply plugin: 'android'
 apply plugin: 'maven'
 apply plugin: 'spoon'
 
-<<<<<<< HEAD
-=======
-// for debug output
 spoon {
     debug = true
 }
->>>>>>> 2a4d97d63cb515d751d721447d53aa13ee1cb773
 
 android {
     compileSdkVersion 17

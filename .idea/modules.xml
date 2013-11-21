@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Account/Account.iml" filepath="$PROJECT_DIR$/Account/Account.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Apptest/Apptest.iml" filepath="$PROJECT_DIR$/Apptest/Apptest.iml" />
       <module fileurl="file://$PROJECT_DIR$/Base/Base.iml" filepath="$PROJECT_DIR$/Base/Base.iml" />
       <module fileurl="file://$PROJECT_DIR$/Childedu/Childedu.iml" filepath="$PROJECT_DIR$/Childedu/Childedu.iml" />
       <module fileurl="file://$PROJECT_DIR$/ChildeduProject.iml" filepath="$PROJECT_DIR$/ChildeduProject.iml" />
@@ -10,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/childedu_teacher/childedu_teacher.iml" filepath="$PROJECT_DIR$/childedu_teacher/childedu_teacher.iml" />
       <module fileurl="file://$PROJECT_DIR$/childeduparent/childeduparent.iml" filepath="$PROJECT_DIR$/childeduparent/childeduparent.iml" />
       <module fileurl="file://$PROJECT_DIR$/datahelper/datahelper.iml" filepath="$PROJECT_DIR$/datahelper/datahelper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/locationschool/locationschool.iml" filepath="$PROJECT_DIR$/locationschool/locationschool.iml" />
     </modules>
   </component>
 </project>
