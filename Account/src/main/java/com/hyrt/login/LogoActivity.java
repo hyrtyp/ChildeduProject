@@ -10,7 +10,7 @@ import com.hyrt.locationschool.LocationSchoolActivity;
 /**
  * Created by GYH on 13-11-18.
  */
-public class logoActivity extends BaseActivity{
+public class LogoActivity extends BaseActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +21,7 @@ public class logoActivity extends BaseActivity{
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent();
-                startActivity(intent.setClass(logoActivity.this,LocationSchoolActivity.class));
+                startActivity(intent.setClass(LogoActivity.this,LocationSchoolActivity.class));
             }
         });
     }
