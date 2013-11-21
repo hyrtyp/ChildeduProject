@@ -21,7 +21,7 @@ public class logoActivity extends BaseActivity{
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent();
-                startActivity(intent.setClass(LogoActivity.this,LocationSchoolActivity.class));
+                startActivity(intent.setClass(logoActivity.this,LocationSchoolActivity.class));
             }
         });
     }
