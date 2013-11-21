@@ -10,7 +10,7 @@ import com.hyrt.locationschool.LocationSchoolActivity;
 /**
  * Created by GYH on 13-11-18.
  */
-public class LogoActivity extends BaseActivity{
+public class logoActivity extends BaseActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
