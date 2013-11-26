@@ -7,15 +7,12 @@ buildscript {
         classpath 'com.stanfy.spoon:spoon-gradle-plugin:0.9.+'
     }
 }
+
 apply plugin: 'android'
 apply plugin: 'spoon'
 
 spoon {
     debug = true
-}
-
-repositories {
-    mavenCentral()
 }
 
 android {
@@ -28,9 +25,6 @@ android {
 
         versionCode 1
         versionName '1.0'
-
-        testPackageName "com.hyrt.login.tests"
-        testInstrumentationRunner "android.test.InstrumentationTestRunner"
     }
 
 }
@@ -38,8 +32,4 @@ android {
 dependencies {
     compile project(':locationschool')
     compile project(':datahelper')
-    instrumentTestCompile "com.squareup.spoon:spoon-client:1.0.5"
-}
-tasks.withType(Compile){
-    options.encoding="UTF-8"
 }

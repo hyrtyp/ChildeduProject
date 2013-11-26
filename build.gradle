@@ -1,0 +1,35 @@
+subprojects {
+
+    group = 'com.hyrt.childedu'
+    version = '1.0'
+
+
+    apply plugin: 'maven'
+    apply plugin: 'signing'
+
+    repositories {
+        maven {
+            credentials {
+                username 'admin'
+                password 'admin123'
+            }
+            url uri('http://192.168.10.128:8081/nexus/content/groups/public/')
+        }
+        //mavenCentral()
+    }
+
+    tasks.withType(Compile){
+        options.encoding="UTF-8"
+    }
+
+    configurations {
+        sshDeploy
+    }
+
+    dependencies {
+        sshDeploy 'org.apache.maven.wagon:wagon-ssh:1.0-beta-7'
+    }
+
+    uploadArchives.dependsOn 'build'
+
+}
