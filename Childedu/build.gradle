@@ -26,10 +26,6 @@ android {
     }
 }
 
-repositories {
-    mavenCentral()
-}
-
 dependencies {
     compile 'org.roboguice:roboguice:2.0'
     compile 'com.jayway.android.robotium:robotium-solo:4.3'

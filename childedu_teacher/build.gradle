@@ -8,10 +8,6 @@ buildscript {
 }
 apply plugin: 'android-library'
 
-repositories {
-    mavenCentral()
-}
-
 android {
     compileSdkVersion 17
     buildToolsVersion "17.0.0"

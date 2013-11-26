@@ -6,11 +6,8 @@ buildscript {
         classpath 'com.android.tools.build:gradle:0.6.+'
     }
 }
-apply plugin: 'android-library'
 
-repositories {
-    mavenCentral()
-}
+apply plugin: 'android-library'
 
 android {
     compileSdkVersion 17
@@ -23,7 +20,6 @@ android {
 }
 
 dependencies {
-    compile 'com.google.android:support-v4:r7'
     compile 'com.octo.android.robospice:robospice:1.4.6'
     compile 'com.octo.android.robospice:robospice-spring-android:1.4.6'
     compile 'org.springframework.android:spring-android-core:1.0.1.RELEASE'
@@ -35,6 +31,84 @@ dependencies {
         exclude module: 'xpp3'
     }
 }
-tasks.withType(Compile){
-    options.encoding="UTF-8"
+
+def isReleaseVersion = !version.endsWith('SNAPSHOT')
+def artifact = 'childedu-datahelper'
+project.ext.set('artifact', artifact)
+
+def getPomConfiguration() {
+    return {
+        groupId project.group
+        artifactId project.artifact
+        version project.version
+        packaging 'aar'
+        name 'childedu query data'
+        description 'childedu Project for query data library'
+        url 'https://github.com/hyrtyp/ChildeduProject'
+        licenses {
+            license {
+                name 'The Apache Software License, Version 2.0'
+                url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                distribution 'repo'
+            }
+        }
+        scm {
+            url 'https://github.com/hyrtyp/ChildeduProject.git'
+            connection 'scm:git://github.com/hyrtyp/ChildeduProject.git'
+            developerConnection 'scm:git@github.com/hyrtyp/ChildeduProject.git'
+        }
+        developers {
+            developer {
+                id 'hyrtyp'
+                name 'yepeng'
+                email '13718868826@163.com'
+            }
+            developer {
+                id 'gyh'
+                name 'guoyuehua'
+                email '790005156@qq.com'
+            }
+        }
+    }
+}
+task generatePom << {
+    def generatedPomFileName = 'pom.xml'
+    pom {
+        project(pomConfiguration)
+    }.writeTo("$buildDir/$generatedPomFileName")
+}
+
+signing {
+    if (isReleaseVersion) {
+        sign configurations.archives
+    }
+}
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            beforeDeployment { deployment ->
+                signing.signPom(deployment)
+            }
+
+            //configuration = configurations.sshDeploy
+            //repository(url: "scp://jvoegele@chilco.textdrive.com/web/public/maven2")
+            //repository(url: "file:///tmp/maven2")
+
+            def repositoryUsername = project.hasProperty('sonatypeUsername') ? sonatypeUsername : 'admin'
+            def repositoryPassword = project.hasProperty('sonatypePassword') ? sonatypePassword : 'admin123'
+
+            if (isReleaseVersion) {
+                repository(url: 'http://192.168.10.128:8081/nexus/content/repositories/releases/') {
+                    authentication(userName: repositoryUsername, password: repositoryPassword)
+                }
+            } else {
+                repository(url: 'http://192.168.10.128:8081/nexus/content/repositories/snapshots/') {
+                    authentication(userName: repositoryUsername, password: repositoryPassword)
+                }
+            }
+
+            pom.project(pomConfiguration)
+        }
+    }
 }
